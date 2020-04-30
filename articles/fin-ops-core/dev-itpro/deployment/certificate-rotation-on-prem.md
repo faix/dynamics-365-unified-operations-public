@@ -36,7 +36,6 @@ You may need to rotate the certificates used by your Dynamics 365 Finance + Oper
 
 > [!WARNING]
 > The certificate rotation process should be initiated well before the certificates expire. This is very important for the Data Encryption certificate, which could  cause data loss for encrypted fields. For more information, see [After certificate rotation](#aftercertrotation). 
-
 > Old certificates must remain in place until the certificate rotation process is complete, removing them in advance will cause the rotation process to fail.
 
 ## Preparation steps 
